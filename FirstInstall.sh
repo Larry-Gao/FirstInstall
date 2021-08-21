@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt-get install vim curl git -y
+sudo apt-get update
+sudo apt install build-essential vim curl git -y
 
 # install NVM
 cd ~/
